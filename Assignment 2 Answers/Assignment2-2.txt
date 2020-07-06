@@ -1,0 +1,41 @@
+operation = int(input('Enter the value 1-5 for corresponding calcution:'))
+
+if operation > 5:
+    returns -1
+else:
+    number1 = int(input('Enter the first number: '))
+    number2 = int(input('Enter the second number: '))
+    
+    if operation == 1:
+        sum = number1 + number2
+        if sum < 0:
+            print('Zsa')
+        else:
+            print(f'The sum of two number is {sum}')
+    
+    elif operation == 2:
+        subtraction = number1 - number2
+        if subtraction < 0:
+            print('Zsa')
+        else:
+            print(f'The subtraction of two number is {subtraction}')
+    
+    elif operation == 3:
+        division = number1 / number2
+        if division < 0:
+            print('Zsa')
+        else:
+            print(f'The division of two number is {division}')
+        
+    elif operation == 4:
+        multiplication = number1 * number2
+        if multiplication < 0:
+            print('Zsa')
+        else:
+            print(f'The multiplication of two number is {multiplication}')
+            
+    elif operation == 5:
+        first1 = int(input('Enter the another first number: '))
+        second2 = int(input('Enter the another second number: '))
+        average = (number1 + number2 + first1 + second2)/4
+        print(f'The average of two number is {average}')
